@@ -1,0 +1,98 @@
+body
+{
+	margin: 0px;
+	overflow-y: scroll;
+	background-color: #DEDEDE;
+}
+div
+{
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.header
+{
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	background-image: url("gfx/headerbackground.png");
+}
+div.navbar
+{
+	top: 120px;
+	width: 100%;
+	position: fixed;
+	background-color: #969696;
+	box-shadow: 0px 1px 8px 1px #000;
+}
+div.links
+{
+	width: 1000px;
+}
+div.content
+{
+	width: 1000px;
+	padding-top: 2px;
+	margin-top: 140px;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0px 0px 9px 0px #000;
+}
+div.footer
+{
+	width: 1000px;
+}
+img.header
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.navbar
+{
+	color: #fff;
+	font-size: 18px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+a.navbar:hover
+{
+	text-decoration: underline;
+}
+a
+{
+	font-size: 16px;
+	font-family: helvetica, sans-serif;
+}
+p
+{
+	margin: 10px;
+	font-size: 16px;
+	font-family: helvetica, sans-serif;
+}
+img
+{
+	display: block;
+}
+p.footer
+{
+	margin: 0px;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+img.row
+{
+	display: inline;
+}
+div.left
+{
+	width: 50%;
+	float: left;
+	display: inline;
+}
+div.right
+{
+	width: 50%;
+	float: right;
+	display: inline;
+}
